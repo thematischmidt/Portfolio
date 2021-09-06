@@ -1,0 +1,86 @@
+
+  @import "./variables";
+  
+  /*Acá empieza HEADER*/
+  header {
+    width: 100%;
+    z-index: 100;
+
+  }
+   
+  .LogoHeader {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+   
+  .menu {
+    margin-right: 50px;
+  }
+   
+  .menu,
+  .submenu {
+    list-style: none;
+  }
+   
+  .menu {
+    position: relative;
+    display: inline-flex;
+    gap: 3em;
+  }
+   
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+  }
+   
+  .about:hover>.submenu {
+    display: block;
+    position: absolute;
+  }
+   
+  nav {
+    float: right;
+    /* Desplaza el nav hacia la derecha */
+    margin-top: 0px;
+  }
+   
+  nav ul {
+    list-style: none;
+  }
+   
+  nav ul li {
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+  }
+   
+  nav ul li a {
+    display: block;
+    /* Convertir los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    /*Acá me cambia el color de la tipografia de la botonera*/
+    color: $bg-color-terciario;
+    text-decoration: none;
+   
+  }
+   
+  nav ul li:hover {
+    font-style: oblique;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    color: $bg-color-principal;
+  }
+   
+   
+   
+  /*Acá comienza Sub menú/*/
+  /*
+    nav ul li ul li a{
+      display: block;
+   
+    }
+  */
+  /*Acá Termina HEADER*/

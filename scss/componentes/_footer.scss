@@ -1,0 +1,58 @@
+/* Acá empieza el footer */
+ 
+footer {
+    width: 100%;
+    padding: 8em;
+    margin-left: -110px;
+    position: fixed;
+  }
+   
+  .FlexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 300px;
+  }
+   
+  .ItemContainer {
+    width: 20px;
+    height: 20px;
+   
+  }
+   
+  .Logo:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+  }
+   
+  /* Acá termina el footer */
+   
+  /* Acá empieza flex about */
+   
+  .IconosAbout {
+    margin-left: 21em;
+    margin-bottom: 2em;
+  }
+   
+  .IconosAbout:hover {
+    transform: skew(20deg);
+    transition: all 1s;
+  }
+   
+  .FlexContainerAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+   
+  }
+   
+  .ItemContainerAbout {
+    width: 70px;
+    height: 70px;
+   
+  }
+   
+  /* Acá termina el flex about */
+  

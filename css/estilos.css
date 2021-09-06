@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/*Acá empieza HEADER*/
+header {
+  width: 100%;
+  z-index: 100;
+}
+
+.LogoHeader {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.menu {
+  margin-right: 50px;
+}
+
+.menu,
+.submenu {
+  list-style: none;
+}
+
+.menu {
+  position: relative;
+  display: inline-flex;
+  gap: 3em;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.about:hover > .submenu {
+  display: block;
+  position: absolute;
+}
+
+nav {
+  float: right;
+  /* Desplaza el nav hacia la derecha */
+  margin-top: 0px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav ul li a {
+  display: block;
+  /* Convertir los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  /*Acá me cambia el color de la tipografia de la botonera*/
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  font-style: oblique;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  color: #00ff22;
+}
+
+/*Acá comienza Sub menú/*/
+/*
+  nav ul li ul li a{
+    display: block;
+
+  }
+*/
+/*Acá Termina HEADER*/
+body {
+  background: url(/Imagenes/TEXTURA\ FONDO1.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  margin: 0;
+  height: 100%;
+}
+
+/*media querys*/
+/* mobile */
+@media only screen and (max-width: 400px) {
+  .mobile {
+    display: none;
+    text-align: center;
+    margin-top: 120px;
+  }
+}
+/* tablet */
+/* Desktop */
+/*Acá empiezan section de descripción*/
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  font-size: 38px;
+  color: #00ff22;
+  text-align: center;
+  margin-top: 120px;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 44px;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.TextoAbout {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 18px;
+  color: #00ff22;
+  text-align: center;
+  margin-top: 75px;
+}
+
+hr {
+  height: 1px;
+  /*Esta es la linea divisoria*/
+  width: 90px;
+  background-color: antiquewhite;
+}
+
+.TextoDos {
+  font-family: "Roboto Mono", monospace;
+  color: antiquewhite;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*contact*/
+.FlexContainerMails {
+  margin-left: 20em;
+  margin-top: 8em;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  font-size: 24px;
+  color: #00ff22;
+}
+
+.ItemMail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+/* Acá empieza el footer */
+footer {
+  width: 100%;
+  padding: 8em;
+  margin-left: -110px;
+  position: fixed;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.ItemContainer {
+  width: 20px;
+  height: 20px;
+}
+
+.Logo:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 1s;
+}
+
+/* Acá termina el footer */
+/* Acá empieza flex about */
+.IconosAbout {
+  margin-left: 21em;
+  margin-bottom: 2em;
+}
+
+.IconosAbout:hover {
+  transform: skew(20deg);
+  transition: all 1s;
+}
+
+.FlexContainerAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.ItemContainerAbout {
+  width: 70px;
+  height: 70px;
+}
+
+/* Acá termina el flex about */
+.nav ul li a {
+  color: antiquewhite;
+}
+
+/*# sourceMappingURL=estilos.css.map */

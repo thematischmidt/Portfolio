@@ -1,0 +1,12 @@
+$colores:
+#00ff22,
+black,
+white,
+antiquewhite;
+
+.nav ul li a{
+    color: nth($colores, 4)
+}
+
+
+

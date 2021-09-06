@@ -1,0 +1,20 @@
+/*contact*/
+ 
+.FlexContainerMails {
+    margin-left: 20em;
+    margin-top: 8em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 24px;
+    color: rgb(0, 255, 34);
+   
+   
+  }
+   
+  .ItemMail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+  

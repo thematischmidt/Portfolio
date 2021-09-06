@@ -1,0 +1,46 @@
+/*Acá empiezan section de descripción*/
+ 
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 800;
+  font-size: 38px;
+  color: $bg-color-principal;
+  text-align: center;
+  margin-top: 120px;
+}
+ 
+ 
+ 
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  font-size: 44px;
+  color: $bg-color-terciario;
+  text-align: center;
+  padding-top: 1px;
+}
+ 
+.TextoAbout {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  font-size: 18px;
+  color: $bg-color-principal;
+  text-align: center;
+  margin-top: 75px;
+}
+ 
+hr {
+  height: 1px;
+  /*Esta es la linea divisoria*/
+  width: 90px;
+  background-color: $bg-color-terciario;
+}
+ 
+.TextoDos {
+  font-family: 'Roboto Mono', monospace;
+  color: $bg-color-terciario;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
